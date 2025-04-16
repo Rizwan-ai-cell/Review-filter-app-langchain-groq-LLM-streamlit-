@@ -1,42 +1,45 @@
-# 🛍️ Review Filter App – LangChain + Groq + Streamlit
+# 🛍️ Review Filter App – LangChain + Groq LLM + Streamlit
 
-This is a simple yet powerful web application built with **Streamlit**, **LangChain**, and **Groq (LLaMA3)**. It extracts structured insights from unstructured customer reviews using natural language processing and a large language model.
+Welcome to the **Review Filter App**, an AI-powered tool built with **LangChain**, **Groq's LLaMA3**, and **Streamlit** that extracts structured data from unstructured customer reviews.
+
+> 🔗 GitHub Repo: [Rizwan-ai-cell/Review-filter-app-langchain-groq-LLM-streamlit](https://github.com/Rizwan-ai-cell/Review-filter-app-langchain-groq-LLM-streamlit)
 
 ---
 
 ## 🚀 Features
 
-- ✅ **Gift Detection**: Checks if the product was bought as a gift.
-- ⏱️ **Delivery Time Estimation**: Extracts how many days the product took to arrive.
-- 💰 **Price/Value Insight Extraction**: Identifies sentences about price or value from the review.
+✅ **Gift Detection**  
+⏱️ **Delivery Time Estimation**  
+💰 **Price/Value Insight Extraction**
+
+This tool helps you understand customer feedback by parsing and extracting relevant information using LLM capabilities.
 
 ---
 
 ## 🧠 How It Works
 
-1. A user enters a product review in the input field.
-2. The review is processed using a LangChain prompt template and structured output parser.
-3. The LLaMA3 model (via Groq API) analyzes the review and extracts:
-   - Whether it was a gift
-   - Delivery days
-   - Price/value-related sentences
-4. Results are shown in a clean format on the Streamlit app.
+1. Users enter a customer review.
+2. A LangChain `ChatPromptTemplate` guides the LLM to extract:
+   - If it was purchased as a gift.
+   - Delivery duration.
+   - Sentences related to price or value.
+3. The structured result is returned and shown via Streamlit interface.
 
 ---
 
-## 🧰 Tech Stack
+## 🛠 Tech Stack
 
-- **Python** 🐍
-- **Streamlit** – Interactive frontend
-- **LangChain** – Prompt templating and output parsing
-- **Groq (LLaMA3)** – Language model inference
-- **dotenv** – For environment variable handling
+- **Python**
+- **LangChain**
+- **Groq (LLaMA3-8B)**
+- **Streamlit**
+- **dotenv**
 
 ---
 
-## 📦 Installation
+## 📦 Setup Instructions
 
-1. **Clone the repository:**
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/review-filter-app.git
-   cd review-filter-app
+   git clone https://github.com/Rizwan-ai-cell/Review-filter-app-langchain-groq-LLM-streamlit.git
+   cd Review-filter-app-langchain-groq-LLM-streamlit
