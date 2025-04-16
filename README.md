@@ -2,8 +2,6 @@
 
 Welcome to the **Review Filter App**, an AI-powered tool built with **LangChain**, **Groq's LLaMA3**, and **Streamlit** that extracts structured data from unstructured customer reviews.
 
-> 🔗 GitHub Repo: [Rizwan-ai-cell/Review-filter-app-langchain-groq-LLM-streamlit](https://github.com/Rizwan-ai-cell/Review-filter-app-langchain-groq-LLM-streamlit)
-
 ---
 
 ## 🚀 Features
@@ -12,18 +10,18 @@ Welcome to the **Review Filter App**, an AI-powered tool built with **LangChain*
 ⏱️ **Delivery Time Estimation**  
 💰 **Price/Value Insight Extraction**
 
-This tool helps you understand customer feedback by parsing and extracting relevant information using LLM capabilities.
+This tool helps you extract structured insights from raw customer feedback using cutting-edge LLM technology.
 
 ---
 
 ## 🧠 How It Works
 
-1. Users enter a customer review.
-2. A LangChain `ChatPromptTemplate` guides the LLM to extract:
-   - If it was purchased as a gift.
-   - Delivery duration.
-   - Sentences related to price or value.
-3. The structured result is returned and shown via Streamlit interface.
+1. Users enter a customer review in the input field.
+2. A LangChain `ChatPromptTemplate` structures the prompt to guide the LLM to extract:
+   - Whether the product was a gift.
+   - The number of days it took for delivery.
+   - Any sentences related to price or value.
+3. The result is parsed and displayed neatly in the Streamlit interface.
 
 ---
 
@@ -41,5 +39,5 @@ This tool helps you understand customer feedback by parsing and extracting relev
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Rizwan-ai-cell/Review-filter-app-langchain-groq-LLM-streamlit.git
+   git clone https://github.com/your-username/Review-filter-app-langchain-groq-LLM-streamlit.git
    cd Review-filter-app-langchain-groq-LLM-streamlit
